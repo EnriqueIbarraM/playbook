@@ -1,0 +1,7 @@
+=====
+07|04/22 12:58 pm
+=====  
+
+Hoy he aprendido a:  
+- Clonar un repositorio de GitHub desde la consola de comandos. (*git clone url*)  
+- Crear un archivo desde la consola de comandos. (*copy con ctrl+z Enter*)   
