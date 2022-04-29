@@ -6,6 +6,12 @@ class Spiderman {
         this.movies = movies
         this.studio = studio
     }
+
+    getInfo(){
+        retunr `Hey, I'm ${this.name} from ${this.studio} studio`
+    }
 }
+
+
 
 module.exports = Spiderman
