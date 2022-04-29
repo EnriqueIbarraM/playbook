@@ -8,7 +8,7 @@ class Spiderman {
     }
 
     getInfo(){
-        retunr `Hey, I'm ${this.name} from ${this.studio} studio`
+        return`Hey, I'm ${this.name} from ${this.studio} studio`
     }
 }
 
