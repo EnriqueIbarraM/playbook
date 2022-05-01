@@ -11,5 +11,8 @@
     "model"
   ],
   "author": "Enrique Ibarra",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.0.3"
+  }
 }
