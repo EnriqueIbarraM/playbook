@@ -1,6 +1,6 @@
-cosnt User = require('./../models/User')
+const User = require('./../../app/models/user')
 
-desribe("Unit Test for User Class", () => {
+describe("Unit Test for User Class", () => {
 
     test('Create an User object', () => {
         //Aquí se invoca el código a utilizar en la app
