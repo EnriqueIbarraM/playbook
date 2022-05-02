@@ -26,7 +26,7 @@ describe("Unit Test for User Class", () => {
 
     test('Add setters', () => {
         const user = new User(1, "the2cto", "Enrique", "Bio")
-        user.setUsername = "2cto"
+        user.setUserName = "2cto"
         expect(user.username).toBe("2cto")
 
         user.setBio = "New bio"
