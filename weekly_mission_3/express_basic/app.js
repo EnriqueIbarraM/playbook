@@ -18,7 +18,7 @@ app.get('/launchx', (req, res) => {
 
 //Regresando un objeto
 // localhost:3000/explorerInNode
-app.get('explorersInNode', (req, res) => {
+app.get('/explorersInNode', (req, res) => {
     const explorer = {name: "Enrique", msg: "Hello"}
     res.send(explorer)
 })
