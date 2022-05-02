@@ -22,10 +22,13 @@ describe("Test for UserView", () => {
     });
 
     test("4. Create a user by a given vald payload", () => {
-        const payload = {username: "username", id: 1, name: "name"}
+        const payload = {username: "the2cto", id: 23, name: "J. Enrique"}
         const result = UserView.createUser(payload)
-        expect(result.name).toBe("name")
-        expect(result.id).toBe(1)
-        expect(result.username).toBe("username")
+        expect(result.name).toBe("J. Enrique")
+        expect(result.id).toBe(23)
+        expect(result.username).toBe("the2cto")
+        console.log(result.id)
+        console.log(result.username)
+        console.log(result.name)
     })
 })
