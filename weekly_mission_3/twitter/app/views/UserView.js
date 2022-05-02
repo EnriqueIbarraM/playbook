@@ -9,7 +9,7 @@ class UserView{
         } else if(typeof payload.username === 'string' && typeof payload.name === 'string' && typeof payload.id === 'number'){
             return payload
         } else {
-            return {error: "necesitan tener un valor válido"}
+            return {error: "Error, las propiedades del objeto necesitan tener un valor válido"}
         }
     }
 }
